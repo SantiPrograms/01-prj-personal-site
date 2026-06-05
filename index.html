@@ -1,11 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Yuriar's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+
+    <nav>
+        <div class="logo">
+            My Portfolio
+        </div>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <aside>
+
+            <div class="card profile-card">
+
+                <div class="avatar">
+                    <img src="img/linkedinPic_2.png" alt="Santiago Yuriar">
+                </div>
+
+                <h1>Santiago Yuriar</h1>
+
+                <p class="title">
+                    Computer Science Student
+                </p>
+
+                <p class="subtitle">
+                    Aspiring Web Developer
+                </p>
+
+                <hr>
+
+                <p class="bio">
+                    Hello! I am Santiago Yuriar, and this is my personal portfolio :D
+                </p>
+
+                <a class="email-button" href="mailto:santiagoyuriar@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    Email Me
+                </a>
+
+            </div>
+
+            <div class="card links-card">
+
+                <h2>Quick Links</h2>
+
+                <a href="https://www.linkedin.com/in/santiago-yuriar/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/SantiPrograms" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+
+            </div>
+
+        </aside>
+
+        <main>
+
+            <div class="card about-card" id="about">
+
+                <h2>About Me</h2>
+
+                <p>
+                    I am a Computer Science student at UTSA.
+                    I enjoy programming, web development, game development,
+                    and learning new technologies. I also enjoy playing video games, reading manga, and playing sports.
+                </p>
+
+            </div>
+
+            <div class="card" id="skills">
+
+                <h2>My Skills</h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill-box">
+                        <i class="fab fa-golang"></i>
+                        <h3>GoLang</h3>
+                    </div>
+
+                    <div class="skill-box">
+                        <img src="img/250px-C_Programming_Language.svg.png" alt="C Logo" class="skill-logo">
+                        <h3>C</h3>
+                    </div>
+
+                    <div class="skill-box">
+                        <i class="devicon-cplusplus-plain"></i>
+                        <h3>C++</h3>
+                    </div>
+
+                    <div class="skill-box">
+                        <i class="devicon-java-plain"></i>
+                        <h3>Java</h3>
+                    </div>
+
+                    <div class="skill-box">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                    </div>
+
+                    <div class="skill-box">
+                        <i class="fas fa-database"></i>
+                        <h3>SQL</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card" id="projects">
+
+                <h2>My Projects</h2>
+
+                <div class="projects">
+
+                    <div class="project">
+
+                        <div class="project-icon">
+                            <a href="https://zant1ag0.itch.io/kans-quest" target="_blank" rel="noopener noreferrer">
+                                <img src="img/Game_6.png" alt="Kan's Quest logo">
+                            </a>
+                        </div>
+
+                        <div>
+                            <h3>Kan's Quest</h3>
+
+                            <p>
+                                A game I made for my game development class's final project.
+                                I made it using Raylib and GoLang.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="project">
+
+                        <div class="project-icon green">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+
+                        <div>
+                            <h3>Future Projects</h3>
+
+                            <p>
+                                As of right now I don't have any future projects planned,
+                                but will update this section as I work on new projects.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card" id="contact">
+
+                <h2>Contact Me</h2>
+
+                <div class="contact-info">
+
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        santiagoyuriar@gmail.com
+                    </p>
+
+                    <p>
+                        <i class="fas fa-location-dot"></i>
+                        San Antonio, TX
+                    </p>
+
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        (713) 447-4110
+                    </p>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
 </body>
 </html>
